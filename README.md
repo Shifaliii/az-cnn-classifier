@@ -13,18 +13,21 @@ This project builds a Convolutional Neural Network (CNN) to classify **handwritt
 - 🧪 Predict a new image (single-letter image)
 - 🌐 Optional web app via Flask or Gradio
 
- 📂 Project Structure (Google Colab Workflow)
+ 📂 Project Structure
 
+```
 📁 Google Drive
-├── 📁 Image/ ← Original dataset (A–Z folders with images)
-├── 📁 resized_Image/ ← Preprocessed images (grayscale, 64x64)
-├── 📄 A_Z_CNN_Classifier.ipynb ← Google Colab notebook (main project)
-├── 📄 AZ_CNN_model.keras ← Trained model file
-
+├── 📁 Image/                ← Original dataset
+├── 📁 resized_Image/        ← Grayscale resized images
+├── 📄 A_Z_CNN_Classifier.ipynb
+├── 📄 AZ_CNN_model.keras
+```
+```
 📚 Requirements (Used in Colab)
 TensorFlow
 NumPy
 OpenCV (cv2)
 Matplotlib / Seaborn
 scikit-learn
+```
 
